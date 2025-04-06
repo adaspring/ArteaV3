@@ -159,6 +159,19 @@ section.carousel-container h2 {
     padding-bottom: 10px;
 }
 
+/* Desktop-only link styling for section titles */
+@media (hover: hover) {
+    section.carousel-container h2 a {
+        cursor: pointer;
+        padding: 0 5px;
+        border-bottom: 2px solid transparent;
+        transition: border-color 0.3s ease;
+    }
+    section.carousel-container h2 a:hover {
+        border-color: #a3e0be;
+    }
+}
+
 /* Carousel styling */
 .carousel {
     display: flex;
